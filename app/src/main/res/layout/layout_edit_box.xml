@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/box"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <EditText
+        android:id="@+id/editNumTens"
+        android:layout_width="@dimen/square"
+        android:layout_height="@dimen/square"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="دهگان"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="14sp"
+        app:fontFamily="@font/iran_yekan" />
+
+    <EditText
+        android:id="@+id/editNumUnit"
+        android:layout_width="@dimen/square"
+        android:layout_height="@dimen/square"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="یکان"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="14sp"
+        app:fontFamily="@font/iran_yekan" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/box"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <TextView
+        android:id="@+id/textNumTens"
+        android:layout_width="@dimen/square"
+        android:layout_height="@dimen/square"
+        android:background="@null"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:fontFamily="@font/iran_yekan" />
+
+    <TextView
+        android:id="@+id/textNumUnit"
+        android:layout_width="@dimen/square"
+        android:layout_height="@dimen/square"
+        android:background="@null"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:fontFamily="@font/iran_yekan" />
+</LinearLayout>
